@@ -1,0 +1,144 @@
+/* General */
+.app-container {
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+.password-manager-top-section {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.app-logo {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.passwords-adding-container {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-heading {
+  margin-bottom: 15px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.add-button {
+  align-self: flex-end;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.password-manager-image {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+.passwords-container {
+  margin-top: 30px;
+}
+
+.passwords-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.passwords-count-container {
+  display: flex;
+  align-items: center;
+}
+
+.passwords-heading {
+  margin-right: 10px;
+}
+
+.passwords-count {
+  background-color: #b6c3ca;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.search-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.show-passwords-label {
+  margin-left: 8px;
+}
+
+.no-passwords-view {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.no-passwords-img {
+  width: 150px;
+}
+
+.no-passwords-text {
+  color: #64748b;
+}
+
+.passwords-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+}
